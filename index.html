@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-Do List</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>My To-Do List</h1>
+      <div class="sort-buttons">
+        <button id="filter-status">All</button>
+        <button id="filter-completed">Completed</button>
+        <button id="filter-uncompleted">Uncompleted</button>
+        <select id="filter-priority">
+          <option value="">Priority</option>
+          <option value="high">High</option>
+          <option value="medium">Medium</option>
+          <option value="low">Low</option>
+        </select>
+        <select id="filter-category">
+          <option value="">Category</option>
+          <option value="Work">Work</option>
+          <option value="Home">Home</option>
+          <option value="Personal">Personal</option>
+        </select>
+      </div>
+    </header>
+
+    <div class="new-task">
+      <input type="text" id="task-input" placeholder="+ Add a new task (press Enter)" autofocus>
+      <select id="priority-input">
+        <option value="high">High</option>
+        <option value="medium" selected>Medium</option>
+        <option value="low">Low</option>
+      </select>
+      <select id="category-input">
+        <option value="Work" selected>Work</option>
+        <option value="Home">Home</option>
+        <option value="Personal">Personal</option>
+      </select>
+    </div>
+
+    <div id="task-list"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
