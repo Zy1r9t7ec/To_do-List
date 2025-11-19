@@ -15,11 +15,12 @@ A simple web-based To-Do List application built using HTML, CSS, and JavaScript.
 
 ## Project Structure
 
+```text
 / (root)
-├── index.html - Main HTML file
-├── style.css - Styling for the application
-└── app.js - JavaScript logic for the app
-
+├── index.html       - Main HTML file
+├── style.css        - Styling for the application
+└── app.js           - JavaScript logic for the app
+```
 ---
 
 ## Getting Started
