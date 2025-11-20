@@ -1,6 +1,23 @@
 # To-Do List Web App
 
-A simple web-based To-Do List application built using HTML, CSS, and JavaScript.
+A simple web-based task management application built using HTML, CSS, and JavaScript. The project demonstrates complete CRUD functionality, DOM manipulation, event handling, and browser-based storage without using external frameworks.
+
+---
+
+## Project 9: Task Management Application
+
+### Abstract
+
+This project focuses on building a full-featured task management application using vanilla JavaScript. It includes complete CRUD (Create, Read, Update, Delete) operations, drag-and-drop functionality for task prioritization, and local storage to persist tasks across browser sessions. Advanced filtering options can be added to sort tasks by status, priority, and category. The project highlights mastery of JavaScript ES6+ features and browser APIs.
+
+### Tools and Technologies
+
+- JavaScript ES6+: Arrow functions, array methods, destructuring
+- DOM API: `querySelector`, `createElement`, `addEventListener`
+- Drag and Drop API: Native HTML5 drag-and-drop
+- localStorage API: Saving tasks directly in the browser
+- HTML5 and CSS3: User interface structure and styling
+- JavaScript `Date` object for date processing
 
 ---
 
@@ -10,6 +27,7 @@ A simple web-based To-Do List application built using HTML, CSS, and JavaScript.
 - Mark tasks as complete or incomplete
 - Delete tasks
 - Clean and minimal user interface
+- Extendable for persistence, categorization, and advanced task controls
 
 ---
 
@@ -21,40 +39,6 @@ A simple web-based To-Do List application built using HTML, CSS, and JavaScript.
 ├── style.css        - Styling for the application
 └── app.js           - JavaScript logic for the app
 ```
----
-
-## Getting Started
-
-### Requirements
-
-- A web browser
-
-### Installation
-
-1. Clone the repository:
-
-git clone https://github.com/Zy1r9t7ec/To_do-List.git
-
-2. Navigate into the project folder:
-
-cd To_do-List
-
-3. Open the `index.html` file in your browser by double-clicking it, or use a local server such as:
-
-python3 -m http.server 8000
-
----
-
-## How It Works
-
-- `index.html` contains the structure of the To-Do list.
-- `style.css` defines the layout and visual styling.
-- `app.js` handles:
-- Adding new tasks
-- Marking tasks as completed
-- Removing tasks
-
----
 
 ## Usage
 
@@ -63,33 +47,4 @@ python3 -m http.server 8000
 3. Click on a task to toggle its completion state.
 4. Click the delete option on a task to remove it.
 
----
-
-## Limitations and Future Improvements
-
-- Tasks are not saved after a page reload (localStorage can be added later)
-- No support for task priority or due dates
-- Drag-and-drop reordering is not implemented
-
----
-
-## Contributing
-
-Contributions are welcome. To contribute:
-
-1. Fork the repository
-
-2. Create a new branch:
-
-git checkout -b feature-name
-
-3. Make changes and commit:
-
-git commit -m "Description of changes"
-
-4. Push to your fork:
-
-git push origin feature-name
-
-5. Open a pull request
 
