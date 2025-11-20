@@ -19,6 +19,15 @@ This project focuses on building a full-featured task management application usi
 
 ---
 
+## Project Structure
+
+```text
+/ (root)
+├── index.html       - Main HTML file
+├── style.css        - Styling for the application
+└── app.js           - JavaScript logic for the app
+```
+
 ## Features
 
 - Add new tasks
@@ -28,15 +37,6 @@ This project focuses on building a full-featured task management application usi
 - Extendable for persistence, categorization, and advanced task controls
 
 ---
-
-## Project Structure
-
-```text
-/ (root)
-├── index.html       - Main HTML file
-├── style.css        - Styling for the application
-└── app.js           - JavaScript logic for the app
-```
 
 ## Usage
 
