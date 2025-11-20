@@ -4,8 +4,6 @@ A simple web-based task management application built using HTML, CSS, and JavaSc
 
 ---
 
-## Project 9: Task Management Application
-
 ### Abstract
 
 This project focuses on building a full-featured task management application using vanilla JavaScript. It includes complete CRUD (Create, Read, Update, Delete) operations, drag-and-drop functionality for task prioritization, and local storage to persist tasks across browser sessions. Advanced filtering options can be added to sort tasks by status, priority, and category. The project highlights mastery of JavaScript ES6+ features and browser APIs.
