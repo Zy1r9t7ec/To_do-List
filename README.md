@@ -3,11 +3,7 @@
 A simple web-based task management application built using HTML, CSS, and JavaScript. The project demonstrates complete CRUD functionality, DOM manipulation, event handling, and browser-based storage without using external frameworks.
 
 ---
-
-### Abstract
-
-This project focuses on building a full-featured task management application using vanilla JavaScript. It includes complete CRUD (Create, Read, Update, Delete) operations, drag-and-drop functionality for task prioritization, and local storage to persist tasks across browser sessions. Advanced filtering options can be added to sort tasks by status, priority, and category. The project highlights mastery of JavaScript ES6+ features and browser APIs.
-
+  
 ### Tools and Technologies
 
 - JavaScript ES6+: Arrow functions, array methods, destructuring
